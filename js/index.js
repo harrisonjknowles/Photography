@@ -1,3 +1,10 @@
+//add analytics
+//logo & favicon
+//seo
+//add other pages
+//about page
+//check for refactors/unused classes
+
 var selectedIndex;
 var galleryImages;
 var columnCount = 1;
@@ -19,6 +26,15 @@ function genImages(element,index) {
     $('.column3').append(imageHtml);
     columnCount = 1;
   }
+
+  // if (index === 0 | index === 3 | index === 6 | index === 9 | index === 12 | index === 15 | index === 18 | index === 21) {
+  //   $('.column1').append(imageHtml);
+  // } else if (index === 1 | index === 4 | index === 7 | index === 10 | index === 13 | index === 16 | index === 19 | index === 22) {
+  //   $('.column2').append(imageHtml);
+  // } else {
+  //   $('.column3').append(imageHtml);
+  // }
+}
 
 //get the pathname to determine which images should be in the array
 var currentPath = window.location.pathname;
